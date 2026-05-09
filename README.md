@@ -4,7 +4,7 @@ A REST API that generates competitive Pokémon teams of 6 members, each with 4 m
 
 ## How it works
 
-1. On first startup the app downloads ~1025 Pokémon and ~950 moves from [PokéAPI](https://pokeapi.co) and saves them locally as JSON datasets.
+1. The app loads Pokémon and move data from two JSON datasets included in the repository. If the files are missing it downloads them from [PokéAPI](https://pokeapi.co) automatically.
 2. When a team is requested, a genetic algorithm evolves a population of candidate teams over 20 generations, scoring each one on type coverage, role diversity, and defensive synergy.
 3. Each Pokémon in the final team is assigned a competitive role and 4 moves selected and scored by a rule-based engine.
 
@@ -13,7 +13,6 @@ For a detailed explanation see [`docs/`](docs/).
 ## Requirements
 
 - Python 3.10+
-- Internet connection on first run (to download datasets)
 
 ## Setup
 

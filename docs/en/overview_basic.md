@@ -17,7 +17,7 @@ Two JSON files are saved locally to avoid re-downloading every time:
 | `data/pokemon_dataset.json` | Name, types, stats, and legendary status for ~1025 Pokémon |
 | `data/moves_dataset.json` | Name, type, power, accuracy, effects, and mechanics for ~950 moves |
 
-If these files already exist, the app uses them directly. If not, it downloads everything from the API automatically when the server starts.
+Both files are included in the repository, so no download is needed on startup. If they were ever deleted, the app would re-download everything from the API automatically when the server starts.
 
 ---
 

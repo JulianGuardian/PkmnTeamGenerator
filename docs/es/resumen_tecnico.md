@@ -27,7 +27,7 @@ app/
 
 ### Construcción de datasets (`pokeapi_client.py`)
 
-Se construyen dos datasets en el primer arranque y se persisten como JSON:
+Ambos datasets están incluidos en el repositorio. Si faltan, la app los reconstruye desde PokéAPI al arrancar y los guarda como JSON:
 
 **`pokemon_dataset.json`** — registro ligero por Pokémon:
 ```json

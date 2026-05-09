@@ -8,10 +8,6 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-# Datasets (large files, regenerated automatically on first run)
-data/pokemon_dataset.json
-data/moves_dataset.json
-
 # Environment variables
 .env
 .env.*
